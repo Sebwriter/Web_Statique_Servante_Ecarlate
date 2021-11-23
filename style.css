@@ -1,0 +1,42 @@
+/*header*/
+
+header {
+    background-color: #a63740;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+header span {
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 100;
+}
+
+/*end_oh_header*****************/
+
+/*main*/
+main {
+    /*background-image: url('images/handmaids_main-1280x720-1.jpg');*/
+    background: linear-gradient(90deg, #a63740, #1d2126);
+    background-size: cover;
+        
+}
+#grande_image {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+/*end_of_main***************/
+
+/*footer*/
+
+ul {
+    list-style: none;
+}
