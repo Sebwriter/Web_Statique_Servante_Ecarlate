@@ -9,6 +9,13 @@
 header{
     background-color: #A63740;
 }
+
+.close i {
+    font-size: x-large;
+    color: beige;
+    margin: 5px 10px 0 0;
+}
+
 #tete{
     display: flex;
 }
@@ -22,11 +29,57 @@ header{
 main{
     /*background-color:#ff0008;*/
     background: linear-gradient(90deg,red, black);
+    background-image: url(/images/handmaids_main-1280x720-1.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    width: -webkit-fill-available;
 }
+
+#imgz {
+    margin: 20px 30px 10px 30px;
+}
+
+#presentation {
+    align-self: flex-end;
+}
+#presentation ul {
+display: inline-flex;
+flex-wrap: wrap;
+}
+.genre li {
+    margin: 0 10px 0 20px;
+    padding: 0 0 0 5px;
+}
+.genre_bis li:first-child {list-style-type: none;}
 /*fin main*/
 
 /*Footer*/
 footer{
     background-color: #1D2126;
 }
+.description_bas ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+.description_bas li {
+    margin: 0 10px 0 20px;
+    padding: 0 0 0 5px;
+    border-bottom: transparent solid 3px;
+}
+.description_bas>ul li:hover {
+    border-bottom:white solid 3px;
+    color: white;
+}
+figure:hover figcaption{
+    color: red;
+}
+
+figcaption {
+    color: white;
+}
+.slider {
+    display: inline-flex;
+} 
 /*fin footer*/
